@@ -1,5 +1,5 @@
 [package]
-name = "common"
+name = "alignv2"
 version = "0.1.0"
 edition = "2021"
 
@@ -12,7 +12,7 @@ zkhash = { git =  "https://github.com/HorizenLabs/poseidon2", branch = "main" }
 lazy_static = { version = "1.4" }
 num-bigint = { version = "0.4" }
 alloy = { version = "0.1.4", features = ["full"] }
-tokio = {version = "1.28.2", features = ["macros", "rt-multi-thread"] }
+tokio = {version = "1.28.2", features = ["full"] }
 eyre = "0.6.12"
 merkletree = "0.23.0"
 typenum = "1.17.0"
@@ -22,4 +22,6 @@ ark-bls12-381 = "0.4.0"
 ark-poly = "0.4.2"
 ark-serialize = "0.4.2"
 ark-poly-commit = "0.4.0"
+ark-crypto-primitives = { version = "^0.4.0", features = ["r1cs","merkle_tree", "crh"] }
+poseidon-merkle = "0.6.0"
 
