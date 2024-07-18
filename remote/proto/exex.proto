@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package exex;
+
+service RemoteExEx {
+  rpc Subscribe(SubscribeRequest) returns (stream BlobChunk) {}
+  rpc NotifyOnline(NodeOnlineRequest) returns (NodeOnlineResponse) {}
+}
+
+message SubscribeRequest {
+  uint32 node_id = 1;
+}
+
+message BlobChunk {
+  uint32 node_id = 1;
+  uint32 chunk_index = 2;
+  bytes chunk = 3;
+  string name = 4;
+}
+
+message NodeOnlineRequest {
+  uint32 node_id = 1;
+}
+
+message NodeOnlineResponse {
+  string message = 1;
+}
