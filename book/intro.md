@@ -1,12 +1,8 @@
-# blobster
+# Blobster Book
+
+_Documentation for Blobster_
 
 [![Telegram Chat][tg-badge]][tg-url]
-
-![](./assets/blobster_banner.png)
-
-**[Install](https://alignnetwork.github.io/blobster/installation.html)**
-
-[tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Falign%5Fblobster
 
 Blobster is a blazing fast and cheap **Ethereum Blob storage system.**
 
@@ -35,8 +31,8 @@ High level goals:
 2. Implement Retrieval of blobs
 3. Create a SNARK proving system for storage nodes to prove they are storing data & accompanying Merkle Proof state root tracking
 4. Host network to open up storage node solutions
+5. Implement a Global Storage Node Register
 
 
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Falign%5Fblobster
 [tg-url]: https://t.me/align_blobster
-
