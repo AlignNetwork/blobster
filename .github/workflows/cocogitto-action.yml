@@ -17,3 +17,11 @@ jobs:
         uses: oknozor/cocogitto-action@v3
         with:
           check-latest-tag-only: true
+      - name: Semver release
+        uses: oknozor/cocogitto-action@v3
+        with:
+          release: true
+          git-user: 'Cog Bot'
+          git-user-email: 'mycoolproject@org.org'
+      - name: Generate Changelog
+        run: cog changelog --at ${{ steps.release.outputs.version }} -t full_hash > CHANGELOG.md

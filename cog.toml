@@ -16,5 +16,14 @@ remote = "github.com"
 repository = "cocogitto_bot_playground"
 owner = "cocogitto"
 authors = [
-  { username = "oknozor", signature = "Paul Delafosse"}
+  { username = "oknozor", signature = "0xGlu"}
 ]
+
+[git_hooks.commit-msg]
+script = """#!/bin/sh
+set -e
+cog verify --file $1
+cog check -l
+cargo fmt -v --all --check
+cargo clippy
+"""
