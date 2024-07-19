@@ -1,4 +1,8 @@
-on: [push]
+name: CI
+on:
+  push:
+    branches: [master]
+  pull_request:
 
 jobs:
   cog_check_job:
