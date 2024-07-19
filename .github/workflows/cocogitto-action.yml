@@ -21,7 +21,7 @@ jobs:
         uses: oknozor/cocogitto-action@v3
         with:
           release: true
-          git-user: 'Cog Bot'
-          git-user-email: 'mycoolproject@org.org'
+          git-user: '0xGlu'
+          git-user-email: 'glucrypto@protonmail.com'
       - name: Generate Changelog
         run: cog changelog --at ${{ steps.release.outputs.version }} -t full_hash > CHANGELOG.md
