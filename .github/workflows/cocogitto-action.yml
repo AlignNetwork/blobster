@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: check conventional commit compliance
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@master
         with:
           fetch-depth: 0
 
