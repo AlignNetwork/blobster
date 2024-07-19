@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.1.1](https://github.com/cocogitto/cocogitto_bot_playground/compare/e735e9ea2528b503b14a393815d6c9245c105aaa..0.1.1) - 2024-07-19
+#### Bug Fixes
+- updated cognitto - ([20c2f36](https://github.com/cocogitto/cocogitto_bot_playground/commit/20c2f36237454bb16bcb1f001bf0dcebcff6069d)) - glucrypto
+- updated cognitto - ([ef5c3e1](https://github.com/cocogitto/cocogitto_bot_playground/commit/ef5c3e19bb9d01c8381093e998c3a91084c9e729)) - glucrypto
+- updated cognitto - ([91701e4](https://github.com/cocogitto/cocogitto_bot_playground/commit/91701e404b02fd13f84422e9f69805683cf120c6)) - glucrypto
+- updated cognitto - ([7aaba7b](https://github.com/cocogitto/cocogitto_bot_playground/commit/7aaba7b7ac26cddc829a4e8c3236e49b529d31bb)) - glucrypto
+- updated cognito - ([e735e9e](https://github.com/cocogitto/cocogitto_bot_playground/commit/e735e9ea2528b503b14a393815d6c9245c105aaa)) - glucrypto
+
+- - -
+
 ## [0.1.0](https://github.com/cocogitto/cocogitto_bot_playground/compare/448b13513f6ce57566b4d4084b7d10b599c5383d..0.1.0) - 2024-07-19
 #### Bug Fixes
 - merge conflicts - ([edc8d04](https://github.com/cocogitto/cocogitto_bot_playground/commit/edc8d041f3ebed716cf57d57b72a842dffc341f3)) - glucrypto
