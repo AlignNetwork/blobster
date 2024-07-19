@@ -31,10 +31,10 @@ High level goals:
 
 - [x] MVP local
 - [ ] Finish syncing holesky (WIP)
-- [ ] #3
-- [ ] #4
-- [ ] #5
-- [ ] #6
+- [ ] Implement Retrieval of blobs [#3](../../issues/3)
+- [ ] Create a SNARK proving system for storage nodes to prove they are storing data & accompanying Merkle Proof state root tracking [#4](../../issues/4)
+- [ ] Host network to open up storage node solutions [#5](../../issues/5)
+- [ ] Implement a Storage Node Register [#6](../../issues/6)
 
 
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Falign%5Fblobster
