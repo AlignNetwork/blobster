@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Added cliff
 - Remove cocgitto
 - Add cliff
+- Remove book
 
 ## [0.1.1] - 2024-07-19
 
