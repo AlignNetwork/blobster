@@ -4,7 +4,7 @@
 
 ![](./assets/blobster_banner.png)
 
-**[Install](https://alignnetwork.github.io/blobster/installation.html)**
+**[Docs](https://alignnetwork.github.io/blobster/quick-start.html)**
 
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Falign%5Fblobster
 
