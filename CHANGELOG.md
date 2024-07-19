@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 - Remove book
 - Remove binary zip
 - Updated print logs
+- Added high level image
 
 ## [0.1.1] - 2024-07-19
 

@@ -25,6 +25,38 @@ We run an [Reth Node w/ an ExEx](https://github.com/paradigmxyz/reth) that detec
 
 Curious about blobs? Check this guide by [Ethereum](https://ethereum.org/en/roadmap/danksharding/) and the [EIP-4844](https://www.eip4844.com/) website.
 
+### Quick Start
+
+**[Docs](https://alignnetwork.github.io/blobster/quick-start.html)**
+
+1. Clone the Repo
+
+`git clone https://github.com/align_network/blobster`
+
+2. Run Reth and the ExEx
+
+`cargo run --bin remote-exex --release -- node --dev`
+
+3. Run the Mock Consensus Layer
+
+Ensure you have libsql installed
+`sudo apt-get install libsqlite3-dev`
+
+`cargo run --bin mock-cl --release`
+
+4. Send 10 Random data blobs
+
+`cargo run --bin update_blocks --release`
+
+## Storage Nodes
+
+Storage Nodes are currently setup to have a max of 3
+
+1. Run a Storage node
+
+`cargo run --release --bin storage-node -- --node-id=1 --storage-dir=storage/node1`
+
+
 ### Roadmap
 
 Currently the system can be run locally, and we are working to supporting bringing the system live on Holesky after we complete the following steps.
