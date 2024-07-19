@@ -8,7 +8,7 @@
 
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Falign%5Fblobster
 
-Intro tweet thread: (Tweet)[https://x.com/0xglu/status/1814354544505098331]
+Intro tweet thread: [Tweet](https://x.com/0xglu/status/1814354544505098331)
 
 Blobster is a blazing fast and cheap long term **Ethereum Blob storage solution.**
 
