@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 - Updated print logs
 - Added high level image
 - Updated readme
+- Updated readme
 
 ## [0.1.1] - 2024-07-19
 

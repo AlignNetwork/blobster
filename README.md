@@ -27,6 +27,8 @@ Curious about blobs? Check this guide by [Ethereum](https://ethereum.org/en/road
 
 ## Quick Start
 
+![](./assets/blobster.mp4)
+
 **[Docs](https://alignnetwork.github.io/blobster/quick-start.html)**
 
 1. Clone the Repo
