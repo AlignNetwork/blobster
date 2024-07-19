@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 - Removed license
 - Added cliff
+- Remove cocgitto
 
 ## [0.1.1] - 2024-07-19
 
