@@ -1,4 +1,4 @@
-name: CI
+name: Cocogitto
 on:
   push:
     branches: [master]

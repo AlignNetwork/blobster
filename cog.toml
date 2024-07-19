@@ -1,6 +1,7 @@
 # File: cog.toml
 pre_bump_hooks = [
     "echo {{version}}",
+    "cargo set-version {{version}}"
 ]
 
 
