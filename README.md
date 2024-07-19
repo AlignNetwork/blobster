@@ -29,7 +29,9 @@ Curious about blobs? Check this guide by [Ethereum](https://ethereum.org/en/road
 
 ## Quick Start
 
-![](./assets/blobster.mp4)
+
+
+https://github.com/user-attachments/assets/5b38256c-f9e7-4840-b228-190492ea680b
 
 **[Docs](https://alignnetwork.github.io/blobster/quick-start.html)**
 
