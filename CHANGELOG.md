@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### 🐛 Bug Fixes
 
 - Removed license
+- Added cliff
 
 ## [0.1.1] - 2024-07-19
 
