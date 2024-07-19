@@ -25,7 +25,7 @@ We run an [Reth Node w/ an ExEx](https://github.com/paradigmxyz/reth) that detec
 
 Curious about blobs? Check this guide by [Ethereum](https://ethereum.org/en/roadmap/danksharding/) and the [EIP-4844](https://www.eip4844.com/) website.
 
-### Quick Start
+## Quick Start
 
 **[Docs](https://alignnetwork.github.io/blobster/quick-start.html)**
 
