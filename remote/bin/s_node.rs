@@ -28,6 +28,7 @@ async fn main() -> eyre::Result<()> {
 
     // Notify the gRPC network that the node is online
     let online_request = NodeOnlineRequest { node_id: args.node_id };
+    client.notify_online(online_request).await?;
 
     let request = SubscribeRequest { node_id: args.node_id };
 

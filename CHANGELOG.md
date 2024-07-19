@@ -6,6 +6,12 @@ All notable changes to this project will be documented in this file.
 
 ### 🐛 Bug Fixes
 
+- Remove binary zip
+
+## [master] - 2024-07-19
+
+### 🐛 Bug Fixes
+
 - Removed license
 - Added cliff
 - Remove cocgitto

@@ -8,7 +8,7 @@
 
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Falign%5Fblobster
 
-Blobster is a blazing fast and cheap **Ethereum Blob storage system.**
+Blobster is a blazing fast and cheap long term **Ethereum Blob storage solution.**
 
 Currently, the system can be used locally with the Reth development settings and comes with a Consensus Layer client to send simulated blobs to the node. We will move to using Holesky once the node is done syncing (soon!).
 

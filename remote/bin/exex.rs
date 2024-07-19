@@ -37,9 +37,9 @@ impl RemoteExEx for ExExService {
         _request: Request<ProtoSubscribeRequest>,
     ) -> Result<Response<Self::SubscribeStream>, Status> {
         let (tx, rx) = mpsc::channel(1000);
-        println!("Subscribing to notifications...");
+        //println!("Subscribing to notifications...");
         let mut notifications = self.notifications.subscribe();
-        println!("Subscribed to notifications");
+        //println!("Subscribed to notifications");
         tokio::spawn(async move {
             while let Ok(notification) = notifications.recv().await {
                 match notification {
@@ -50,13 +50,17 @@ impl RemoteExEx for ExExService {
                         name,
                     } => {
                         //info!("Received blob chunk from notification");
+                        info!(
+                            "Sending chunk {} (name: {}) to node {}",
+                            chunk_index, name, chunk_node_id
+                        );
+
                         let blob_chunk =
                             BlobChunk { node_id: chunk_node_id, chunk_index, chunk, name };
                         if tx.send(Ok(blob_chunk)).await.is_err() {
                             eprintln!("Failed to send blob chunk to gRPC stream");
                             break;
                         } else {
-                            info!("Sent blob chunk to gRPC stream for node {}", chunk_node_id);
                         }
                     }
                     ExExNotification::NodeOnline { node_id } => {
@@ -129,7 +133,10 @@ async fn exex<Node: FullNodeComponents>(
                                                     chunk,
                                                     name: commitment.to_string(),
                                                 };
-                                                //println!("Sending chunk to node {}", node_id);
+                                                println!(
+                                                    "Sending chunk {} to node {}",
+                                                    chunk_index, node_id
+                                                );
                                                 if let Err(_e) = notifications.send(notification) {
                                                     eprintln!("Failed to send chunk");
                                                 }

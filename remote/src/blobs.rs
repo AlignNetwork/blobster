@@ -129,7 +129,7 @@ pub async fn fetch_blobs_for_block(
         }; */
     let s = match response.text().await {
         Ok(s) => {
-            println!("Raw JSON response: {}", s);
+            //println!("Raw JSON response: {}", s);
             s
         }
         Err(e) => return Err(SideCarError::NetworkError(e.to_string())),
