@@ -19,6 +19,8 @@ The motivation behind creating a network to offer longer term storage solutions 
 
 ### How?
 
+![](./assets/blobster_high_level.png)
+
 We run an [Reth Node w/ an ExEx](https://github.com/paradigmxyz/reth) that detects blobs, queries the consensus layer, erasure encodes the blobs and stores them in a series of storage nodes erasure encoding for cheap and efficient long term storage of blobs.
 
 Curious about blobs? Check this guide by [Ethereum](https://ethereum.org/en/roadmap/danksharding/) and the [EIP-4844](https://www.eip4844.com/) website.
