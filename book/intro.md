@@ -9,7 +9,7 @@ Blobster is a blazing fast and cheap **Ethereum Blob storage system.**
 Currently, the system can be used locally with the Reth development settings and comes with a Consensus Layer client to send simulated blobs to the node. We will move to using Holesky once the node is done syncing (soon!).
 
 
-<img src="https://raw.githubusercontent.com/alignnetwork/blobster/main/assets/blobster_banner.png" style="border-radius: 20px">
+<img src="https://raw.githubusercontent.com/alignnetwork/blobster/master/assets/blobster_banner.png" style="border-radius: 20px">
 
 ### Why?
 
