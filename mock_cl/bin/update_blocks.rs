@@ -33,7 +33,6 @@ async fn main() -> Result<()> {
         // randomly generate data for each sidecar
         let mut rng = StdRng::seed_from_u64(42);
         let mut builder = SidecarBuilder::<SimpleCoder>::new();
-        /*let blob_data: Vec<u8> = (0..BLOB_SIZE).map(|_| rng.gen()).collect(); */
         // Pad the blob_data with zeros if it's less than BLOB_SIZE
         builder.ingest(b"this is bitcoin");
         let sidecar = builder.build()?;
