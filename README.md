@@ -14,10 +14,9 @@ Blobster is a blazing fast and cheap long term **Ethereum Blob storage solution.
 
 Currently, the system can be used locally with the Reth development settings and comes with a Consensus Layer client to send simulated blobs to the node. We will move to using Holesky once the node is done syncing (soon!).
 
-
 ### Why?
 
-The motivation behind creating a network to offer longer term storage solutions to blob storage is to build support and tooling to support the underexplored world of blobs and to test out Danksharding techniques in a real world setting. We think by taking advantage of the KZG commitment nature of blobs, we can streamline a SNARK proving system for storage nodes. Also taking advantage of erasure encoding and some mixing techniques, we believe we can achieve lower storage requirements than replication while still maintaining significant economic security. These ideas are a WIP and may change or be proven incorrect, however we think we have enough of a base to field outside opinions. 
+The motivation behind creating a network to offer longer term storage solutions to blob storage is to build support and tooling to support the underexplored world of blobs and to test out Danksharding techniques in a real world setting. We think by taking advantage of the KZG commitment nature of blobs, we can streamline a SNARK proving system for storage nodes. Also taking advantage of erasure encoding and some mixing techniques, we believe we can achieve lower storage requirements than replication while still maintaining significant economic security. These ideas are a WIP and may change or be proven incorrect, however we think we have enough of a base to field outside opinions.
 
 ### How?
 
@@ -29,8 +28,6 @@ Curious about blobs? Check this guide by [Ethereum](https://ethereum.org/en/road
 
 ## Quick Start
 
-
-
 https://github.com/user-attachments/assets/5b38256c-f9e7-4840-b228-190492ea680b
 
 **[Docs](https://alignnetwork.github.io/blobster/quick-start.html)**
@@ -41,7 +38,7 @@ https://github.com/user-attachments/assets/5b38256c-f9e7-4840-b228-190492ea680b
 
 2. Run Reth and the ExEx
 
-`cargo run --bin remote-exex --release -- node --dev`
+`cargo run --bin exex --release -- node --dev`
 
 3. Run the Mock Consensus Layer
 
@@ -62,7 +59,6 @@ Storage Nodes are currently setup to have a max of 3
 
 `cargo run --release --bin storage-node -- --node-id=1 --storage-dir=storage/node1`
 
-
 ### Roadmap
 
 Currently the system can be run locally, and we are working to supporting bringing the system live on Holesky after we complete the following steps.
@@ -76,7 +72,5 @@ High level goals:
 - [ ] Host network to open up storage node solutions [#5](../../issues/5)
 - [ ] Implement a Storage Node Register [#6](../../issues/6)
 
-
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Falign%5Fblobster
 [tg-url]: https://t.me/align_blobster
-

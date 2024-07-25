@@ -1,6 +1,6 @@
 use clap::Parser;
+use exex::proto::remote_ex_ex_client::RemoteExExClient;
 use reed_solomon_erasure::galois_8::ReedSolomon;
-use remote::proto::remote_ex_ex_client::RemoteExExClient;
 use reth_tracing::{tracing::info, RethTracer, Tracer};
 use std::collections::HashMap;
 use std::fs::File;

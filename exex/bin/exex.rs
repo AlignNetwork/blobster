@@ -1,11 +1,11 @@
-use rand::rngs::StdRng;
-use rand::{Rng, SeedableRng};
-use remote::blobs::{fetch_blobs_for_block, BlobTransactionEvent};
-use remote::proto::{
+use exex::blobs::{fetch_blobs_for_block, BlobTransactionEvent};
+use exex::proto::{
     remote_ex_ex_server::{RemoteExEx, RemoteExExServer},
     BlobChunk, NodeOnlineRequest, NodeOnlineResponse, SubscribeRequest as ProtoSubscribeRequest,
 };
-use remote::sequencer::sequencer::process_blob_sidecar;
+use exex::sequencer::sequencer::process_blob_sidecar;
+use rand::rngs::StdRng;
+use rand::{Rng, SeedableRng};
 use reth_exex::{ExExContext, ExExEvent};
 use reth_node_api::FullNodeComponents;
 use reth_node_ethereum::EthereumNode;

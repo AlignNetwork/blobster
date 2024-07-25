@@ -1,5 +1,5 @@
 use clap::Parser;
-use remote::proto::{remote_ex_ex_client::RemoteExExClient, NodeOnlineRequest, SubscribeRequest};
+use exex::proto::{remote_ex_ex_client::RemoteExExClient, NodeOnlineRequest, SubscribeRequest};
 use reth_tracing::{tracing::info, RethTracer, Tracer};
 use std::path::PathBuf;
 use tokio::time::{sleep, Duration};
