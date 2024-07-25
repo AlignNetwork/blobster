@@ -64,7 +64,7 @@ default = []
 optimism = ["reth/optimism"]
 
 [[bin]]
-name = "remote-exex"
+name = "exex"
 path = "bin/exex.rs"
 
 [[bin]]

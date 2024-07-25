@@ -1,6 +1,6 @@
 [workspace]
 members = [
-  "remote",
+  "exex",
   "mock_cl",
 ]
 resolver = "2"

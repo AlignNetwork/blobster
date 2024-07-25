@@ -6,16 +6,22 @@ All notable changes to this project will be documented in this file.
 
 ### 🐛 Bug Fixes
 
-- Removed license
-- Added cliff
-- Remove cocgitto
-- Add cliff
-- Remove book
 - Remove binary zip
 - Updated print logs
 - Added high level image
 - Updated readme
 - Updated readme
+- Added video
+
+## [master] - 2024-07-19
+
+### 🐛 Bug Fixes
+
+- Removed license
+- Added cliff
+- Remove cocgitto
+- Add cliff
+- Remove book
 
 ## [0.1.1] - 2024-07-19
 
