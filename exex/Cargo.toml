@@ -1,5 +1,5 @@
 [package]
-name = "remote"
+name = "exex"
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true
@@ -23,6 +23,7 @@ thiserror.workspace = true
 warp.workspace = true
 alloy.workspace = true
 alloy-rpc-types-beacon.workspace = true
+revm-primitives.workspace = true
 
 p3-poseidon2 = "0.1.3-succinct"
 ark-bn254 = "0.4"     # For BN254 field types from Arkworks
@@ -56,8 +57,6 @@ clap = "4.5.9"
 [build-dependencies]
 tonic-build = "0.12"
 
-[dev-dependencies]
-reth-exex-test-utils.workspace = true
 
 [features]
 default = []
