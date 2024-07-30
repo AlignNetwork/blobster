@@ -12,6 +12,8 @@ All notable changes to this project will be documented in this file.
 - Updated readme
 - Updated readme
 - Added video
+- Updated naming to work with install script
+- Updated reth to 1.0.3 (#10)
 
 ## [master] - 2024-07-19
 
